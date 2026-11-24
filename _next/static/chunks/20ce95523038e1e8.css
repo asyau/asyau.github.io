@@ -128,3 +128,14 @@ nav[aria-label="Art sections"]{display:none}
 .writing-card-meta{display:block;font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:10.5px;letter-spacing:.15em;text-transform:uppercase;color:#b3aa99;margin-bottom:6px}
 .writing-card-title{display:block;font-family:inherit;font-size:18px;font-weight:600;color:#2b2a29;margin-bottom:4px}
 .writing-card-text{display:block;font-size:14px;line-height:1.5}
+
+
+
+
+
+.art-photo{margin:18px 0 0;width:120px;height:120px;border-radius:50%;overflow:hidden;box-shadow:0 2px 14px rgba(0,0,0,.15)}
+.art-photo img{display:block;width:100%;height:100%;object-fit:cover}
+@media (max-width:640px){.art-photo{width:104px;height:104px}}
+@media (min-width:1200px){#photography,#music{position:relative}.art-photo{position:absolute;width:172px;height:172px;margin:0;animation:artfloat 7s ease-in-out infinite}.art-photo--right{right:-198px;top:70px}.art-photo--left{left:-198px;top:60px;animation-delay:-3s}}
+@keyframes artfloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@media (prefers-reduced-motion:reduce){.art-photo{animation:none!important}}
