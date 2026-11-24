@@ -121,3 +121,10 @@ ol.academic-list>.publication-entry{counter-increment:pub;position:relative;padd
   ol.academic-list>.publication-entry{padding-left:0}
   .profile-links a{font-size:12px;padding:7px 13px}
 }
+
+nav[aria-label="Art sections"]{display:none}
+.writing-card{display:block;margin-top:18px;max-width:540px;border:1px solid #e7dfd0;border-radius:14px;background:#fff;padding:16px 20px;color:#474645;text-decoration:none}
+.writing-card:hover{border-color:var(--accent-brand);text-decoration:none}
+.writing-card-meta{display:block;font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:10.5px;letter-spacing:.15em;text-transform:uppercase;color:#b3aa99;margin-bottom:6px}
+.writing-card-title{display:block;font-family:inherit;font-size:18px;font-weight:600;color:#2b2a29;margin-bottom:4px}
+.writing-card-text{display:block;font-size:14px;line-height:1.5}
